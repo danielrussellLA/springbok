@@ -1,24 +1,23 @@
-.portfolio {
-    background: #202945;
-    color: #FFF;
+.plans {
+    background: #fff;
     padding: 1em 0 5em 0;
 }
 
-.portfolio-inner-wrap {
+.plans-inner-wrap {
     max-width: 1200px;
     margin: auto;
 }
-.portfolio-title {
+.plans-title {
     text-align: center;
     font-size: 3em;
 }
-#portfolio-items {
+#plans-items {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
 }
-.portfolio-item {
+.plans-item {
     width: 200px;
     height: 200px;
     margin: 1em;
@@ -27,22 +26,22 @@
     transition: transform .1s;
 }
 
-.portfolio-item:hover {
+.plans-item:hover {
     transform: scale(1.05);
 }
 
 @media (max-width: 800px) {
-    .portfolio-item {
+    .plans-item {
         width: 300px;
         height: 300px;
         margin: 1em .5em;
     }
 }
 
-.portfolio-photo-desktop {
+.plans-photo-desktop {
     max-height: 270px;
 }
-.portfolio-photo-mobile {
+.plans-photo-mobile {
     box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6);
     width: 132px;
 }

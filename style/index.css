@@ -1,7 +1,8 @@
 @import './about.css';
 @import './footer.css';
 @import './header.css';
-@import './portfolio.css';
+@import './how-it-works.css';
+@import './plans.css';
 
 html {
   box-sizing: border-box;

@@ -31,7 +31,7 @@ if (cluster.isMaster) {
     var certificate = fs.readFileSync('./engineeringdan_com.crt', 'utf8');
 
     var credentials = { key: privateKey, cert: certificate };
-    var ip = '192.168.0.000'; // put your static ip address of your server here
+    var ip = '192.168.1.111'; // static ip address of server
 
     // use middleware
     app.use(morgan('dev'));

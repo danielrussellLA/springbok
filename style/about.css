@@ -2,7 +2,7 @@
 .about {
     /* height: 400px; */
     padding: 4em 2em;
-    background: #fafaff;
+    background: #ffffff;
     color: rgb(32, 41, 69);
     display: flex;
     align-items: center;
@@ -17,14 +17,12 @@
 }
 
 .profile-photo {
-    background: url('./assets/daniel-russell.jpg');
+    background: url('./assets/social_network.png');
     height: 250px;
     width: 250px;
     min-width: 200px;
-    /* border-radius: 50%; */
     background-position: center;
     background-size: cover;
-    /* box-shadow: 0 80px 140px -40px rgba(0, 0, 0, 0.6); */
 }
 
 .about-text {
