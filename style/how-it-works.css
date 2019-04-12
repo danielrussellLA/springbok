@@ -1,10 +1,41 @@
 .how-it-works {
-    background: #a0d468;
+    background: #1f1c33;
+    padding: 4em 2em;
+}
+
+.how-it-works-instagram-ads {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+}
+
+.how-it-works-inner-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.how-it-works-text {
+    max-width: 500px;
+    color: #fafafa;
 }
 
 .how-it-works-title {
     margin: 0;
-    font-size: 3em;
-    text-align: center;
-    padding: 2em;
+    /* font-size: 3em; */
+    /* text-align: center; */
+    /* padding: 2em; */
+}
+
+.how-it-works-graph {
+    border-radius: 50%;
+    background: url('./assets/hipster_girl.jpg');
+    height: 250px;
+    width: 250px;
+    min-width: 200px;
+    background-position: center;
+    background-size: cover;
 }
