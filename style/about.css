@@ -17,7 +17,8 @@
 }
 
 .profile-photo {
-    background: url('./assets/social_network.png');
+    border-radius: 50%;
+    background: url('./assets/hipster_girl.jpg');
     height: 250px;
     width: 250px;
     min-width: 200px;

@@ -21,21 +21,35 @@
 .how-it-works-text {
     max-width: 500px;
     color: #fafafa;
+    margin-right: 2em;
 }
 
 .how-it-works-title {
     margin: 0;
-    /* font-size: 3em; */
-    /* text-align: center; */
-    /* padding: 2em; */
+}
+
+.how-it-works-image-container {
+    width: 50%;
 }
 
 .how-it-works-graph {
-    border-radius: 50%;
-    background: url('./assets/hipster_girl.jpg');
-    height: 250px;
-    width: 250px;
+    background: url('./assets/social-media-ad.jpg');
+    height: 350px;
+    width: 100%;
     min-width: 200px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 900px) {
+    .how-it-works-inner-wrap {
+        flex-direction: column;
+    }
+    .how-it-works-text {
+        margin: 2em 0 2em 0;
+    }
+    .how-it-works-image-container {
+        width: 100%;
+    }
 }
