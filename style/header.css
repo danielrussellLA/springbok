@@ -72,6 +72,7 @@
     text-align: center;
     z-index: 1;
     animation: easeDown .5s ease;
+    margin-bottom: 13em;
 }
 
 @keyframes easeDown {
@@ -86,18 +87,21 @@
 }
 
 .header-title {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 0;
+    text-shadow: 10px 10px 80px #000;
 }
 
 .header-description {
     font-size: 2rem;
+    margin-top: 0.5rem;
     font-weight: bold;
+    text-shadow: 10px 10px 80px #000;
 }
 
 @media (max-width: 800px) {
     .header-title {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     .header-description {
         font-size: 1.5rem;

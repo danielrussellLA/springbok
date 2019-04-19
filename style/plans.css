@@ -73,8 +73,14 @@
     position: absolute;
     bottom: 1em;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -90px;
 }
+
+.plans-item-body-purchase-button:hover {
+    background: #03af9f;
+    cursor: pointer;
+}
+
 .plans-item-body-purchase-button:focus {
     outline: none;
 }
