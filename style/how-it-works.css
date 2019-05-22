@@ -33,7 +33,7 @@
 }
 
 .how-it-works-graph {
-    background: url('./assets/social-media-ad.jpg');
+    /* background: url('./assets/social-media-ad.jpg'); */
     height: 350px;
     width: 100%;
     min-width: 200px;
